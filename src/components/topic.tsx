@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import CommsProcess from "../assets/The-Communication-Process-min.png"
 import leaveMail from "../assets/leave-mail.png"
+import resume from "../assets/resume.png"
 
 interface Topic {
   title: string;
@@ -33,7 +34,7 @@ const TopicsSection = () => {
         "Understanding the fundamental flow of information between sender and receiver through various channels.",
       icon: FaComments,
       category: "Foundation",
-      color: "blue",
+      color: "bImpersonal narrative is essential in formal/professional writing drafts such as email writing, report writing, and minutes of meeting, where objectivity is key. It maintains a neutral tone in articles/essay writing and profile/CV building to ensure professionalism. Even in social media handles, it helps present information clearly without personal bias.lue",
       extra:
         "The process of communication involves a sender, message, channel, receiver, and feedback. Effective communication ensures clarity, understanding, and response.",
       image: `${CommsProcess}`, // replace with your diagram path
@@ -159,6 +160,18 @@ const TopicsSection = () => {
         "Technical writing is a concise and precise form of communication that focuses on clarity and accuracy, ensuring complex information is easy to understand. It aims to be on point, delivering essential details without unnecessary content. Technical writing emphasizes proper formatting, justification, and uniformity to maintain professional standards. It avoids clichés and focuses on factual writ that respects chronomics, ensuring timely and context-appropriate communication. In summary, it delivers clear, structured, and effective information.",
 	image: `${leaveMail}`
     },
+    {
+      title: "Impersonal Narrative",
+      description:
+        "An impersonal narrative focuses on facts and information rather than personal opinions or emotions.",
+      icon: FaVolumeUp,
+      category: "Vocal",
+      color: "pink",
+      extra:
+        "Impersonal narrative is essential in formal/professional writing drafts such as email writing, report writing, and minutes of meeting, where objectivity is key. It maintains a neutral tone in articles/essay writing and profile/CV building to ensure professionalism. Even in social media handles, it helps present information clearly without personal bias.",
+    image: `${resume}`
+    },
+
 
   ];
 
