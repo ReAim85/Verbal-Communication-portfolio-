@@ -153,7 +153,7 @@ const TopicsSection = () => {
       description:
         "Understanding of Technical writing and how it should be written.",
       icon: FaVolumeUp,
-      category: "Vocal",
+      category: "Non-Verbal",
       color: "pink",
       extra:
         "Technical writing is a concise and precise form of communication that focuses on clarity and accuracy, ensuring complex information is easy to understand. It aims to be on point, delivering essential details without unnecessary content. Technical writing emphasizes proper formatting, justification, and uniformity to maintain professional standards. It avoids clichés and focuses on factual writ that respects chronomics, ensuring timely and context-appropriate communication. In summary, it delivers clear, structured, and effective information.",
