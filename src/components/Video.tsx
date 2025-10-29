@@ -16,8 +16,10 @@ const VideoSection = () => {
           <div className="bg-white rounded-xl transition-all overflow-hidden group">
             <div className="aspect-video bg-gray-100 relative flex items-center justify-center">
                 <div>
-                    <iframe id="js_video_iframe" src="
-                      " className="absolute top-0 left-0 w-full h-full"></iframe>
+                    <iframe
+		    id="js_video_iframe"
+		    src="https://jumpshare.com/embed/VwrbsPZ9SVmLUZxdVORv" 
+		    className="absolute top-0 left-0 w-full h-full"></iframe>
                     </div>
             </div>
             <div className="p-6">
@@ -33,7 +35,7 @@ const VideoSection = () => {
           <div className="bg-white rounded-xl transition-all overflow-hidden group">
             <div className="aspect-video bg-gray-100 relative flex items-center justify-center">
                 <div>
-                    <iframe id="js_video_iframe" src="https://jumpshare.com/embed/ZwBeY8hd9Hw8NKlz2sXr" className="absolute top-0 left-0 w-full h-full"></iframe>
+                    <iframe id="js_video_iframe" src="https://jumpshare.com/embed/PjEvhnZnJZCNRFrnU2mk" className="absolute top-0 left-0 w-full h-full"></iframe>
                     </div>
             </div>
             <div className="p-6">
