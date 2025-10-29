@@ -11,6 +11,7 @@ import {
   FaHeadphones,
 } from "react-icons/fa";
 import CommsProcess from "../assets/The-Communication-Process-min.png"
+import leaveMail from "../assets/leave-mail.png"
 
 interface Topic {
   title: string;
@@ -147,6 +148,18 @@ const TopicsSection = () => {
       extra:
         "Phonemics studies sound patterns in language. Clear pronunciation and articulation improve understanding in spoken communication.",
     },
+    {
+      title: "Technical Writing",
+      description:
+        "Understanding of Technical writing and how it should be written.",
+      icon: FaVolumeUp,
+      category: "Vocal",
+      color: "pink",
+      extra:
+        "Technical writing is a concise and precise form of communication that focuses on clarity and accuracy, ensuring complex information is easy to understand. It aims to be on point, delivering essential details without unnecessary content. Technical writing emphasizes proper formatting, justification, and uniformity to maintain professional standards. It avoids clichés and focuses on factual writ that respects chronomics, ensuring timely and context-appropriate communication. In summary, it delivers clear, structured, and effective information.",
+	image: `${leaveMail}`
+    },
+
   ];
 
   const getColorClasses = (color: string) => {
